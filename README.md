@@ -15,6 +15,6 @@ This repository contains two Python scripts for performing Principal Component A
    - Suitable when both group and age variables are numeric or encodable.
 
 2. `pca_cleaned_columns.py`  
-   - Removes non-numeric metadata (e.g., Animal ID, Sex, Age) before performing PCA.
+   - Removes non-numeric metadata before performing PCA.
    - Encodes 'Sex' and binned 'Age' for color and shape respectively.
    - Generates PCA coordinates, scree plot, and heatmap of trait loadings.
